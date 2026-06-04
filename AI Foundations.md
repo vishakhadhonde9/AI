@@ -93,57 +93,42 @@
 - This process is called data preprocessing.
 
 - **Step 3: Feature Selection:**
+- Features are characteristics used for learning.
+- House Price Example:
+- Features:
+  - Area
+  - Number of bedrooms
+  - Location
+  - Age of property
+- These features help predict house prices.
 
-Features are characteristics used for learning.
+- **Step 4: Model Training**
+- The algorithm analyzes training data and learns patterns.
+- The model adjusts internal parameters to reduce prediction errors.
+- Examples of algorithms:
+   - Linear Regression
+   - Decision Trees
+   - Random Forest
+   - Support Vector Machines
+   - Neural Networks
 
-House Price Example
+- **Step 5: Model Evaluation**
+- The trained model is tested using unseen data.
+- Metrics include:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1 Score
+  - Mean Squared Error
+- This step checks how well the model performs.
 
-Features:
-
-Area
-Number of bedrooms
-Location
-Age of property
-
-These features help predict house prices.
-
-Step 4: Model Training
-
-The algorithm analyzes training data and learns patterns.
-
-The model adjusts internal parameters to reduce prediction errors.
-
-Examples of algorithms:
-
-Linear Regression
-Decision Trees
-Random Forest
-Support Vector Machines
-Neural Networks
-Step 5: Model Evaluation
-
-The trained model is tested using unseen data.
-
-Metrics include:
-
-Accuracy
-Precision
-Recall
-F1 Score
-Mean Squared Error
-
-This step checks how well the model performs.
-
-Step 6: Prediction
-
-The model is deployed and used on new data.
-
-Examples:
-
-Predicting stock prices
-Recommending movies
-Detecting fraud
-Diagnosing diseases
+- **Step 6: Prediction**
+- The model is deployed and used on new data.
+- Examples:
+  - Predicting stock prices
+  - Recommending movies
+  - Detecting fraud
+  - Diagnosing diseases
 
 
 
