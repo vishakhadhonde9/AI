@@ -130,7 +130,10 @@
   - Detecting fraud
   - Diagnosing diseases
 
-
+# Types of Machine Learning -
+## 1. Supervised Learning
+- Supervised Learning is a type of machine learning where the model is trained using labeled data, meaning each training example contains both the input data and the correct output.
+- The algorithm learns the relationship between inputs and outputs and then predicts outputs for new data.
 
 
 
