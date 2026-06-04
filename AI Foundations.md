@@ -131,12 +131,23 @@
   - Diagnosing diseases
 
 # Types of Machine Learning -
-## 1. Supervised Learning
+## 1. Supervised Learning -
 - Supervised Learning is a type of machine learning where the model is trained using labeled data, meaning each training example contains both the input data and the correct output.
 - The algorithm learns the relationship between inputs and outputs and then predicts outputs for new data.
+## 2. Unsupervised Learning -
+- Unsupervised Learning is a type of Machine Learning in which the model is trained using unlabeled data, meaning the data does not contain predefined outputs or correct answers.
+- The algorithm independently analyzes the data to discover hidden patterns, relationships, structures, similarities, and groups without human guidance.
+- Unlike supervised learning, where the model learns from examples with known answers, unsupervised learning explores the data on its own and finds meaningful insights.
 
+## 3. Semi-Supervised Learning -
+- Semi-Supervised Learning is a type of Machine Learning that combines the concepts of Supervised Learning and Unsupervised Learning.
+- It trains a model using a small amount of labeled data and a large amount of unlabeled data.
+- The goal is to improve learning accuracy while reducing the cost and effort required to label large datasets.
 
-
+## 4. Reinforcement Learning (RL) -
+- Reinforcement Learning (RL) is a type of Machine Learning in which an agent learns how to make decisions by interacting with an environment and receiving rewards or penalties based on its actions.
+- The goal of the agent is to learn the best sequence of actions that maximizes the total cumulative reward over time.
+- Unlike supervised learning, where correct answers are provided, reinforcement learning learns through trial and error.
 
 
 
