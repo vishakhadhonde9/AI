@@ -49,17 +49,38 @@
 - ASI would be capable of reasoning, creativity, learning, decision-making, and problem-solving at levels beyond the most intelligent humans
 - They can exceeds human intelligence, extremely fast learning, superior problem-solving ability, advanced creativity and innovation, autonomous decision-making.
 - ASI have capabilities as:
-   - Solving complex global problems
-   - Discovering new scientific theories
-   - Designing advanced technologies
-   - Making decisions faster and more accurately than humans
+   - Solving complex global problems.
+   - Discovering new scientific theories.
+   - Designing advanced technologies.
+   - Making decisions faster and more accurately than humans.
+  
 
-
-
+| Feature            | ANI                              | AGI                        | ASI                   |
+|--------------------|----------------------------------|----------------------------|-----------------------|
+| Intelligence Level | Task-specific                    | Human-level                | Beyond human          |
+| Exists Today       | Yes                              | No                         | No                    |
+| Learning Ability   | Limited                          | General                    | Superior              |
+| Adaptability       | Low                              | High                       | Very High             |
+| Multiple Tasks     | Limited                          | Yes                        | Yes                   |
+| Example            | Chatbots, Recommendation Systems | Hypothetical Human-like AI | Hypothetical Super AI |
 
 
 
 # Differentiate AI, machine learning, and deep learning -
+
+## Machine Leraning -
+- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
