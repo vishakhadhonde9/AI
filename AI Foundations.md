@@ -69,7 +69,81 @@
 # Differentiate AI, machine learning, and deep learning -
 
 ## Machine Leraning -
-- 
+- Machine Learning (ML) is a subset of Artificial Intelligence (AI) that focuses on developing algorithms and statistical models that enable computer systems to learn from data, identify patterns, make predictions, and improve their performance over time without being explicitly programmed for every specific task.
+
+## How ML works -
+- **Step 1: Data Collection;**
+- Data is gathered from different sources.
+- Examples:
+   - Customer purchases
+   - Images
+   - Videos
+   - Medical records
+   - Sensor data
+   - Financial transactions
+- The quality of data greatly influences model performance.
+
+- **Step 2: Data Preparatiom:**
+- Raw data is often messy.
+- Tasks include:
+   - Removing errors
+   - Handling missing values
+   - Formatting data
+   - Removing duplicates
+- This process is called data preprocessing.
+
+- **Step 3: Feature Selection:**
+
+Features are characteristics used for learning.
+
+House Price Example
+
+Features:
+
+Area
+Number of bedrooms
+Location
+Age of property
+
+These features help predict house prices.
+
+Step 4: Model Training
+
+The algorithm analyzes training data and learns patterns.
+
+The model adjusts internal parameters to reduce prediction errors.
+
+Examples of algorithms:
+
+Linear Regression
+Decision Trees
+Random Forest
+Support Vector Machines
+Neural Networks
+Step 5: Model Evaluation
+
+The trained model is tested using unseen data.
+
+Metrics include:
+
+Accuracy
+Precision
+Recall
+F1 Score
+Mean Squared Error
+
+This step checks how well the model performs.
+
+Step 6: Prediction
+
+The model is deployed and used on new data.
+
+Examples:
+
+Predicting stock prices
+Recommending movies
+Detecting fraud
+Diagnosing diseases
 
 
 
