@@ -149,6 +149,11 @@
 - The goal of the agent is to learn the best sequence of actions that maximizes the total cumulative reward over time.
 - Unlike supervised learning, where correct answers are provided, reinforcement learning learns through trial and error.
 
+# Deep Learning -
+- Deep Learning (DL) is a specialized subset of Machine Learning (ML) that uses Artificial Neural Networks (ANNs) with multiple layers to learn patterns, relationships, and features from large amounts of data.
+- The word "Deep" refers to the presence of multiple hidden layers in the neural network.
+
+<img width="1100" height="575" alt="image" src="https://github.com/user-attachments/assets/ad675bc5-9f72-4414-95d6-7c9de61c4658" />
 
 
 
