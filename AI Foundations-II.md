@@ -134,8 +134,42 @@ Artificial Intelligence (AI) is applied across a wide range of domains to solve 
 - The application of AI in finance increases operational efficiency and helps organizations make more informed decisions.
 
 
+# Generative AI VS Traditional Predictive AI Systems -
+## Generative AI -
+- Generative AI is a branch of Artificial Intelligence that focuses on creating new content such as text, images, audio, video, and computer code by learning patterns, structures, and relationships from large datasets.
+- Instead of simply analyzing existing data, generative AI produces original outputs that resemble the data on which it was trained.
+- Generative AI models are typically based on advanced deep learning architectures, such as transformer-based foundation models.
+- These models learn the underlying distribution of data and generate new content that is coherent, realistic, and contextually relevant.
+- Examples of Generative AI
+  - Text generation (chatbots and content writing)
+  - Image generation
+  - Music composition
+  - Video generation
+  - Code generation
+  - Content summarization
 
+## Traditional Predictive AI -
+- Predictive AI is a type of AI designed to analyze historical data and predict outcomes, classify information, or support decision-making.
+- Its primary goal is to identify patterns in data and use those patterns to forecast future events or categorize new inputs.
+- Predictive AI does not create new content. Instead, it provides predictions, classifications, recommendations, or probability estimates based on learned patterns.
+- Examples of Predictive AI
+  - Spam email detection
+  - Fraud detection
+  - Weather forecasting
+  - Credit risk assessment
+  - Sales forecasting
+  - Disease prediction
 
+| Feature | Generative AI | Traditional Predictive AI |
+|----------|--------------|--------------------------|
+| **Purpose** | Creates new content. | Predicts outcomes or classifications. |
+| **Primary Goal** | Generate text, images, audio, video, or code. | Analyze data and make predictions. |
+| **Output Type** | Original content. | Labels, scores, probabilities, or forecasts. |
+| **Learning Focus** | Learns patterns to generate new data. | Learns patterns to predict existing categories or values. |
+| **Data Usage** | Uses data to understand and recreate underlying structures. | Uses data to identify relationships for prediction. |
+| **Creativity** | High; produces novel outputs. | Low; focuses on decision-making and forecasting. |
+| **Examples** | Chatbots, image generators, code assistants. | Fraud detection, recommendation engines, credit scoring. |
+| **Result** | New content is produced. | A prediction or classification is produced. |
 
 
 
