@@ -156,6 +156,23 @@
 <img width="1100" height="575" alt="image" src="https://github.com/user-attachments/assets/ad675bc5-9f72-4414-95d6-7c9de61c4658" />
 
 
+| Aspect | Artificial Intelligence (AI) | Machine Learning (ML) | Deep Learning (DL) |
+|---------|-----------------------------|-----------------------|--------------------|
+| **Definition** | A field of computer science that creates intelligent systems capable of mimicking human intelligence. | A subset of AI that enables systems to learn from data without explicit programming. | A subset of ML that uses deep neural networks to learn complex patterns from data. |
+| **Scope** | Broadest field covering ML, DL, robotics, NLP, expert systems, etc. | Subset of AI focused on learning from data. | Subset of ML focused on deep neural networks. |
+| **Learning Required** | May or may not involve learning. | Always learns from historical data. | Learns through multi-layer neural networks. |
+| **Human Involvement** | High to Moderate. Rules are often defined by humans. | Moderate. Humans select features and train models. | Low. Features are automatically learned by the network. |
+| **Feature Engineering** | Often manual. | Usually manual. | Automatic. |
+| **Data Requirement** | Low to High depending on the application. | Medium to High. | Very High (large datasets required). |
+| **Data Type** | Structured, semi-structured, and unstructured data. | Mostly structured and labeled data. | Primarily unstructured data such as images, audio, text, and video. |
+| **Core Techniques** | Rule-based systems, search algorithms, expert systems, ML, DL, NLP. | Regression, classification, clustering, reinforcement learning. | CNNs, RNNs, LSTMs, Transformers, GANs. |
+| **Model Complexity** | Low to High. | Medium. | Very High. |
+| **Computation Power** | Low to High. | Moderate (typically CPUs). | Very High (GPUs/TPUs often required). |
+| **Training Time** | Low to Medium. | Medium. | High. |
+| **Accuracy** | Depends on rules and techniques used. | Generally good for many prediction tasks. | Often highest accuracy for complex tasks. |
+| **Best For** | General intelligent systems and automation. | Prediction, classification, and analytics. | Computer vision, speech recognition, and natural language processing. |
+| **Examples** | Robotics, expert systems, game-playing systems. | Spam detection, recommendation systems, sales forecasting. | ChatGPT, self-driving cars, facial recognition, voice assistants. |
+
 
 
 
