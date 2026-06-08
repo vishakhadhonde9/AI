@@ -247,149 +247,75 @@
 - Successful actions are rewarded.
 - Unsuccessful actions are penalized.
 - Over time, the system gradually improves by selecting actions that produce better results.
+- Example
 
-Example
+        A robot learning to walk:
+        
+        Initial Attempts
+        
+        The robot falls frequently.
+        
+        Learning Phase
+        
+        Successful movements receive rewards.
+        
+        Improvement Phase
 
-A robot learning to walk:
+        The robot begins repeating successful behaviors.
+        
+        Eventually, the robot learns to walk effectively.
 
-Initial Attempts
+## Model Evaluation
+- Model evaluation is the process of assessing how well a trained model performs on unseen data.
+- The purpose is to determine whether the model can generalize beyond the training data.
+- **Evaluation Process-**
+- Step 1] Use testing data.
+- Step 2] Generate predictions.
+- Step 3] Compare predictions with actual outcomes.
+- Step 4] Calculate performance metrics.
 
-The robot falls frequently.
+## Understanding Error in Machine Learning
+- Error refers to the difference between the model's prediction and the actual value.
+- It indicates how accurate or inaccurate a prediction is.
 
-Learning Phase
+        Error Formula
+        Error=Actual Value−Predicted Value
+        
+        Example
+        
+        Actual House Price = ₹50,00,000
+        
+        Predicted House Price = ₹48,00,000
+        
+        Error = ₹2,00,000
 
-Successful movements receive rewards.
+- The objective of training is to minimize this error as much as possible.
 
-Improvement Phase
+## How Models Improve Over Time
+- Machine learning models improve through an iterative process.
+- **Prediction-** The model makes predictions.
+- **Error Measurement-** The prediction error is calculated.
+- **Parameter Adjustment-** The algorithm modifies internal parameters.
+- **Retraining-** The model learns from mistakes.
+- **Re-evaluation-** Performance is measured again.
+- This cycle continues until acceptable performance is achieved.
+- This process is known as optimization.
 
-The robot begins repeating successful behaviors.
+## How Machine Learning Systems Are Used for Prediction
+- Once training and evaluation are complete, the model is deployed into a real-world environment.
+- When new data is received:
 
-Eventually, the robot learns to walk effectively.
+        The trained model analyzes the input.
+        Previously learned patterns are applied.
+        A prediction is generated.
+        The prediction is delivered to users or systems.
 
-Model Evaluation
-Definition
-
-Model evaluation is the process of assessing how well a trained model performs on unseen data.
-
-The purpose is to determine whether the model can generalize beyond the training data.
-
-Evaluation Process
-Step 1
-
-Use testing data.
-
-Step 2
-
-Generate predictions.
-
-Step 3
-
-Compare predictions with actual outcomes.
-
-Step 4
-
-Calculate performance metrics.
-
-Understanding Error in Machine Learning
-Definition
-
-Error refers to the difference between the model's prediction and the actual value.
-
-It indicates how accurate or inaccurate a prediction is.
-
-Error Formula
-
-Error=Actual Value−Predicted Value
-
-Example
-
-Actual House Price = ₹50,00,000
-
-Predicted House Price = ₹48,00,000
-
-Error = ₹2,00,000
-
-The objective of training is to minimize this error as much as possible.
-
-How Models Improve Over Time
-
-Machine learning models improve through an iterative process.
-
-Prediction
-
-The model makes predictions.
-
-Error Measurement
-
-The prediction error is calculated.
-
-Parameter Adjustment
-
-The algorithm modifies internal parameters.
-
-Retraining
-
-The model learns from mistakes.
-
-Re-evaluation
-
-Performance is measured again.
-
-This cycle continues until acceptable performance is achieved.
-
-This process is known as optimization.
-
-Common Algorithms Used in Machine Learning
-Supervised Learning Algorithms
-Linear Regression
-Logistic Regression
-Decision Trees
-Random Forest
-Support Vector Machines (SVM)
-Neural Networks
-Unsupervised Learning Algorithms
-K-Means Clustering
-Hierarchical Clustering
-DBSCAN
-Principal Component Analysis (PCA)
-Reinforcement Learning Algorithms
-Q-Learning
-SARSA
-Deep Q Networks (DQN)
-Policy Gradient Methods
-Common Machine Learning Tools
-Programming Languages
-Python
-R
-Java
-Machine Learning Frameworks
-Scikit-learn
-TensorFlow
-PyTorch
-Keras
-XGBoost
-Data Processing Libraries
-Pandas
-NumPy
-Apache Spark
-How Machine Learning Systems Are Used for Prediction
-
-Once training and evaluation are complete, the model is deployed into a real-world environment.
-
-When new data is received:
-
-The trained model analyzes the input.
-Previously learned patterns are applied.
-A prediction is generated.
-The prediction is delivered to users or systems.
-
-This process is called Inference.
-
-Examples include:
-
-Predicting stock prices
-Detecting spam emails
-Forecasting weather
-Diagnosing diseases
-Recommending products
-Identifying fraudulent transactions
+- This process is called Inference.
+- Examples include:
+    
+    Predicting stock prices
+    Detecting spam emails
+    Forecasting weather
+    Diagnosing diseases
+    Recommending products
+    Identifying fraudulent transactions
