@@ -140,152 +140,113 @@
       
       Low-risk or High-risk borrower
 
-Types of Supervised Learning
-Classification
+## Types of Supervised Learning
+#### Classification
+- Predicts categories.
+- Examples:
 
-Predicts categories.
+    Spam / Not Spam
+    Disease / No Disease
+    Fraudulent / Legitimate
+    Regression
 
-Examples:
+- Predicts continuous numerical values.
 
-Spam / Not Spam
-Disease / No Disease
-Fraudulent / Legitimate
-Regression
+- Examples:
 
-Predicts continuous numerical values.
+        House prices
+        Temperature forecasts
+        Sales predictions
 
-Examples:
+## Unsupervised Learning
+- Unsupervised Learning is a machine learning approach in which the model is trained using unlabeled data.
+- Unlike supervised learning, no correct answers are provided.
+- The objective is to discover hidden structures, patterns, and relationships within the data.
 
-House prices
-Temperature forecasts
-Sales predictions
-Unsupervised Learning
-Definition
+### How Unsupervised Learning Works
+- Step 1] Provide unlabeled data.
+- Step 2] The algorithm analyzes similarities and differences.
+- Step 3] The model automatically identifies patterns.
+- Step 4] Data is grouped into meaningful categories or clusters.
 
-Unsupervised Learning is a machine learning approach in which the model is trained using unlabeled data.
+- Examples of Unsupervised Learning
+        Customer Segmentation- Customers are grouped according to:
+        
+        Age
+        Income
+        Purchasing behavior
+        Market Basket Analysis
+        
+        Retailers identify products frequently purchased together.
+        
+        Example:
+        
+        Customers buying bread often buy milk.
+        
+        Anomaly Detection
+        
+        Detecting unusual activities such as:
+        
+        Credit card fraud
+        Network intrusions
+        Common Unsupervised Learning Algorithms
+        K-Means Clustering
+        Hierarchical Clustering
+        DBSCAN
+        Principal Component Analysis (PCA)
 
-Unlike supervised learning, no correct answers are provided.
+## Reinforcement Learning
+- Reinforcement Learning (RL) is a machine learning approach in which an agent learns by interacting with an environment and receiving feedback in the form of rewards or penalties.
+- The objective is to maximize long-term rewards through continuous learning.
 
-The objective is to discover hidden structures, patterns, and relationships within the data.
+### Components of Reinforcement Learning
+- **Agent-** The learner or decision-maker.
+- **Environment-** The world in which the agent operates.
+- **Action-** A decision taken by the agent.
+- **Reward-** Feedback received after performing an action.
+- **Policy-** A strategy that determines which actions should be taken.
 
-How Unsupervised Learning Works
-Step 1
+### How Reinforcement Learning Works
+- The agent observes the environment.
+- The agent selects an action.
+- The environment responds.
+- A reward or penalty is given.
+- The agent updates its strategy.
+- The process repeats continuously.
+- Over time, the agent learns which actions produce the highest rewards.
 
-Provide unlabeled data.
+- Examples of Reinforcement Learning
+        Self-Driving Cars
+        
+        Rewards:
+        
+        Staying in lane
+        Following traffic rules
+        
+        Penalties:
+        
+        Collisions
+        Dangerous driving
+        Robotics
+        
+        A robot learns:
+        
+        Walking
+        Grasping objects
+        Navigation
+        Game Playing
+        
+        AI systems learn games such as:
+        
+        Chess
+        Go
+        Video games
 
-Step 2
-
-The algorithm analyzes similarities and differences.
-
-Step 3
-
-The model automatically identifies patterns.
-
-Step 4
-
-Data is grouped into meaningful categories or clusters.
-
-Examples of Unsupervised Learning
-Customer Segmentation
-
-Customers are grouped according to:
-
-Age
-Income
-Purchasing behavior
-Market Basket Analysis
-
-Retailers identify products frequently purchased together.
-
-Example:
-
-Customers buying bread often buy milk.
-
-Anomaly Detection
-
-Detecting unusual activities such as:
-
-Credit card fraud
-Network intrusions
-Common Unsupervised Learning Algorithms
-K-Means Clustering
-Hierarchical Clustering
-DBSCAN
-Principal Component Analysis (PCA)
-Reinforcement Learning
-Definition
-
-Reinforcement Learning (RL) is a machine learning approach in which an agent learns by interacting with an environment and receiving feedback in the form of rewards or penalties.
-
-The objective is to maximize long-term rewards through continuous learning.
-
-Components of Reinforcement Learning
-Agent
-
-The learner or decision-maker.
-
-Environment
-
-The world in which the agent operates.
-
-Action
-
-A decision taken by the agent.
-
-Reward
-
-Feedback received after performing an action.
-
-Policy
-
-A strategy that determines which actions should be taken.
-
-How Reinforcement Learning Works
-The agent observes the environment.
-The agent selects an action.
-The environment responds.
-A reward or penalty is given.
-The agent updates its strategy.
-The process repeats continuously.
-
-Over time, the agent learns which actions produce the highest rewards.
-
-Examples of Reinforcement Learning
-Self-Driving Cars
-
-Rewards:
-
-Staying in lane
-Following traffic rules
-
-Penalties:
-
-Collisions
-Dangerous driving
-Robotics
-
-A robot learns:
-
-Walking
-Grasping objects
-Navigation
-Game Playing
-
-AI systems learn games such as:
-
-Chess
-Go
-Video games
-Trial-and-Error Learning
-Definition
-
-Trial-and-error learning is a process in which a machine learning system repeatedly attempts different actions and learns from the outcomes.
-
-Successful actions are rewarded.
-
-Unsuccessful actions are penalized.
-
-Over time, the system gradually improves by selecting actions that produce better results.
+## Trial-and-Error Learning
+- Trial-and-error learning is a process in which a machine learning system repeatedly attempts different actions and learns from the outcomes.
+- Successful actions are rewarded.
+- Unsuccessful actions are penalized.
+- Over time, the system gradually improves by selecting actions that produce better results.
 
 Example
 
