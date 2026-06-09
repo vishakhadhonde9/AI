@@ -1,6 +1,5 @@
 # Comparison Between Supervised, Unsupervised, and Reinforcement Learning
 
-Machine Learning algorithms can be broadly categorized into **Supervised Learning**, **Unsupervised Learning**, and **Reinforcement Learning** based on how they learn from data and receive feedback.
 
 | Feature | Supervised Learning | Unsupervised Learning | Reinforcement Learning |
 |----------|-------------------|----------------------|-----------------------|
