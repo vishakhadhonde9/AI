@@ -62,3 +62,80 @@
 | 3 | y₃ | ŷ₃ |
 | ... | ... | ... |
 | n | yₙ | ŷₙ |
+
+
+- Error for the i-th observation:
+
+   ```math
+   e_i = y_i - \hat{y}_i
+   ```
+
+- **Why We Don't Use Simple Sum of Errors-**
+- If we add all errors:
+
+```math
+\sum_{i=1}^{n}(y_i-\hat{y}_i)
+```
+- Positive and negative errors can cancel out.
+- Example:
+
+```math
+(+5) + (-5) = 0
+```
+- This incorrectly suggests there is no error.
+
+- **Square Each Error-**
+- To avoid cancellation, square every error:
+
+```math
+(y_i-\hat{y}_i)^2
+```
+- Now all errors become positive.
+
+- **Sum All Squared Errors-**
+- Add all squared errors:
+
+```math
+\sum_{i=1}^{n}(y_i-\hat{y}_i)^2
+```
+
+Expanded form:
+
+```math
+(y_1-\hat{y}_1)^2 +
+(y_2-\hat{y}_2)^2 +
+(y_3-\hat{y}_3)^2 +
+\cdots +
+(y_n-\hat{y}_n)^2
+```
+- This is called the **Sum of Squared Errors (SSE)**.
+
+
+- **Take the Average-**
+- To make the error independent of dataset size, divide by the number of observations `n`:
+
+```math
+\frac{1}{n}
+\sum_{i=1}^{n}(y_i-\hat{y}_i)^2
+```
+
+---
+
+# Final MSE Formula
+
+```math
+MSE =
+\frac{1}{n}
+\sum_{i=1}^{n}
+(y_i-\hat{y}_i)^2
+```
+
+Where:
+
+- `n` = Number of observations
+- `y_i` = Actual value
+- `ŷ_i` = Predicted value
+- `(y_i - ŷ_i)` = Error (Residual)
+
+---
+
