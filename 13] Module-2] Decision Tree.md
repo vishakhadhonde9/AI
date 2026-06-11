@@ -16,3 +16,9 @@
 ## 3. Branch
 - Represents the outcome of a decision or test.
 - Connects one node to another.
+
+## 4. Leaf Node (Terminal Node)
+- The final node of the tree.
+- Contains the prediction or decision.
+- No further splitting occurs.
+
