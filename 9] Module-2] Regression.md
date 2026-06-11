@@ -448,7 +448,31 @@ from historical data and uses it to predict continuous values.
     y = b₀ + b₁x₁ + b₂x₂ + ... + bₙxₙ
 
 
+# Advantages -
+- **1. Simple to Understand-** Linear Regression is one of the easiest machine learning algorithms to learn and interpret.
+- **2. Easy to Implement-** It requires less computational power and can be implemented using simple mathematical formulas.
+- **3. Fast Training-** Training a Linear Regression model is generally quick, even with large datasets.
+- **4. Works Well for Linear Relationships-** When the relationship between input and output variables is approximately linear, Linear Regression can provide accurate predictions.
+- **5. Easy to Interpret Results-** The coefficients indicate how much the output changes when an input variable changes.
+- For example: If the coefficient of study hours is 5, then every additional hour studied increases marks by approximately 5.
 
+# Limitations of Linear Regression
+- **1. Assumes a Linear Relationship-** Linear Regression assumes that the relationship between variables is a straight line.
+- If the actual relationship is curved or complex, predictions may be inaccurate.
+- **2. Sensitive to Outliers**
+- Extreme values (outliers) can significantly affect the regression line and reduce accuracy.
+- Example: Most house prices are between ₹30–₹80 lakhs, but one house costs ₹10 crores. This can distort the model.
+- **3. May Perform Poorly on Complex Data-** Real-world data often contains non-linear patterns that Linear Regression cannot capture effectively.
+- **4. Can Underfit Non-Linear Patterns-** If the data follows a curved trend, Linear Regression may oversimplify the relationship and produce poor predictions.
+
+# Applications -
+- 1. House Price Prediction- Estimate house prices based on area, location, number of rooms, and other features.
+- 2. Stock Trend Analysis- Analyze historical stock data to identify trends and make forecasts.
+- 3. Sales Forecasting- Predict future sales based on historical sales records and marketing efforts.
+- 4. Weather Forecasting- Estimate temperature, rainfall, or other weather-related values using historical data.
+- 5. Salary Prediction- Predict employee salaries based on experience, education, and skills.
+- 6. Demand Forecasting- Estimate future demand for products to help businesses manage inventory.
+- 7. Business Analytics- Analyze business metrics such as revenue, profit, customer growth, and operational performance.
 
 
 
