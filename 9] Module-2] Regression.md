@@ -433,8 +433,19 @@ from historical data and uses it to predict continuous values.
 - Learned Equation = `y = 10x + 20`
 - Prediction for 6 hours = `80 marks`
 
-This is a complete Linear Regression workflow: **Data → Learn Equation → Predict New Values**.
+- This is a complete Linear Regression workflow: **Data → Learn Equation → Predict New Values**.
 
+# Types of Linear Regression
+## 1. Simple Linear Regression
+- Simple Linear Regression uses one independent variable (input feature) to predict one dependent variable (output).
+- The relationship between the input and output is represented by a straight line.
+- Equation:
+     y = b₀ + b₁x
+
+## 2. Multiple Linear Regression
+- Multiple Linear Regression uses two or more independent variables to predict a dependent variable.
+- Equation:
+    y = b₀ + b₁x₁ + b₂x₂ + ... + bₙxₙ
 
 
 
