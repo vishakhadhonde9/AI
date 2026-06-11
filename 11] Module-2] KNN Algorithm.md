@@ -241,4 +241,68 @@ Therefore, for a student who studies 4.5 hours, the model predicts:
 
 60 Marks
 
+# Advantages of KNN
 
+1. **Easy to Understand and Implement**
+   - KNN is one of the simplest machine learning algorithms.
+
+2. **No Training Phase**
+   - KNN stores the training data and makes predictions during testing.
+
+3. **Works for Classification and Regression**
+   - Can be used to predict both categories and numerical values.
+
+4. **Good for Small Datasets**
+   - Performs well when the dataset size is small.
+
+5. **Can Learn Complex Patterns**
+   - Does not assume any specific relationship between features and target values.
+
+# Disadvantages of KNN
+
+1. **Slow for Large Datasets**
+   - Distance must be calculated for every training data point.
+
+2. **Requires More Memory**
+   - The entire training dataset must be stored.
+
+3. **Sensitive to Noise**
+   - Incorrect or noisy data can affect predictions.
+
+4. **Sensitive to Feature Scaling**
+   - Features with larger values can dominate distance calculations.
+
+5. **Choosing the Right K is Difficult**
+   - A very small K can overfit, while a very large K can underfit.
+
+# Applications of KNN
+
+## Healthcare
+- Disease prediction
+- Patient classification
+
+## Finance
+- Credit risk analysis
+- Fraud detection
+
+## E-commerce
+- Product recommendation systems
+- Customer segmentation
+
+## Image Recognition
+- Face recognition
+- Object classification
+
+## Education
+- Student performance prediction
+
+## Marketing
+- Customer behavior analysis
+- Targeted advertising
+
+## Agriculture
+- Crop classification
+- Plant disease detection
+
+## Weather Forecasting
+- Temperature and rainfall prediction
