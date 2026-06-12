@@ -71,15 +71,67 @@
       S  = Dataset
       pi = Probability of class i
       n  = Number of classes
-      
+
+# Steps -
+- Predict whether a person will buy a laptop (Yes/No) based on their Age, Income, and Student status using a Decision Tree Classification model.
+
+| Age    | Income | Student | Buy Laptop |
+|--------|--------|---------|------------|
+| Young  | High   | No      | No         |
+| Young  | High   | Yes     | No         |
+| Middle | High   | No      | Yes        |
+| Old    | Medium | No      | Yes        |
+| Old    | Low    | Yes     | Yes        |
+| Old    | Low    | Yes     | No         |
+| Middle | Low    | Yes     | Yes        |
+| Young  | Medium | No      | No         |
+
+## Step 1: Calculate Entropy/Impurity of dataset -
+
+- Count Target Classes:
+
+    - Yes = 4  
+    - No  = 4  
+
+- Probabilities:
+
+        - P(Yes) = 4/8 = 0.5  
+        - P(No)  = 4/8 = 0.5  
+        
+- Entropy Formula:
+
+        Entropy(S) = -P(Yes)log₂(P(Yes))-P(No)log₂(P(No))
+        
+        Entropy(S) = -(0.5 × log₂0.5)-(0.5 × log₂0.5)
+                   = 0.5 + 0.5
+                   = 1
+## Step 2: Calculate Entropy of all attribute of Age -
+- **Age = Young**   
+   
+        No
+        No
+        No
+       Entropy = 0
+
+- **Age = Middle**
+
+        Yes
+        Yes
+       Entropy = 0
+
+- **Age = Old**
+
+            Yes
+            Yes
+            No
+        
+          Probabilities: P(Yes)=2/3
+                         P(No)=1/3
+        
+          Entropy: = -(2/3)log₂(2/3)-(1/3)log₂(1/3)
+                   ≈ 0.918
 
 
 
-
-
-
-
-
-
-
+  
 
