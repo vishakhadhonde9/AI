@@ -127,11 +127,126 @@
         
           Probabilities: P(Yes)=2/3
                          P(No)=1/3
+
+#### Information Gain for Age
+
+        IG(Age) = 1 - 0.344
+                = 0.656       
+                  
+        Entropy: = -(2/3)log₂(2/3)-(1/3)log₂(1/3)
+                 ≈ 0.918
         
-          Entropy: = -(2/3)log₂(2/3)-(1/3)log₂(1/3)
-                   ≈ 0.918
-
-
-
+## Step 3: Check Feature "Income"
+- **Income = High**
   
+        No
+        No
+        Yes
+       Entropy: ≈ 0.918
 
+- **Income = Medium**
+
+        Yes
+        No
+        Entropy:= 1
+  
+- **Income = Low**
+
+        Yes
+        Yes
+        No
+        Entropy:≈ 0.918
+        
+        Weighted Entropy = (3/8 × 0.918)+(2/8 × 1)+(3/8 × 0.918)
+                         = 0.938
+
+        Information Gain
+        IG(Income)= 1 - 0.938 = 0.062
+
+## Step 4: Check Feature "Student"
+- **Student = Yes**
+
+        No
+        Yes
+        No
+        Yes
+  
+        Yes = 2
+        No  = 2
+        Entropy:= 1
+
+- **Student = No**
+
+        No
+        Yes
+        Yes
+        No
+        Yes = 2
+        No  = 2
+       Entropy:= 1
+        
+        Weighted Entropy = (4/8 × 1)+(4/8 × 1)
+                         = 1
+        Information Gain
+        IG(Student) = 1 - 1
+                    = 0
+  
+Step 5: Compare Information Gain
+Feature	Information Gain
+Age	0.656
+Income	0.062
+Student	0
+Best Feature
+Age
+
+because it has the highest Information Gain.
+
+So Age becomes the Root Node.
+
+Decision Tree Construction
+                    Age
+               /      |      \
+          Young    Middle     Old
+            |         |         |
+           No        Yes    Income
+                            /    \
+                        Medium   Low
+                          |        |
+                         Yes      Mixed
+Predicting a New Record
+
+Suppose:
+
+Age	Income	Student
+Middle	High	Yes
+
+Tree Traversal:
+
+Age = Middle
+      ↓
+     Yes
+
+Prediction:
+
+Buy Laptop = Yes
+What Happened Mathematically?
+Calculated Parent Entropy = 1.
+Computed Information Gain for all 3 features:
+Age = 0.656
+Income = 0.062
+Student = 0
+Chose the feature with the highest Information Gain.
+Split the dataset using that feature.
+Repeated the process for child nodes until leaf nodes were reached.
+Final Formula Used
+
+Entropy
+
+Entropy(S) = - Σ Pi log₂(Pi)
+
+Information Gain
+
+IG = Entropy(Parent)
+     - Weighted Entropy(Children)
+
+The feature with the maximum Information Gain becomes the next decision node in the tree.
