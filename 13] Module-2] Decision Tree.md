@@ -22,3 +22,64 @@
 - Contains the prediction or decision.
 - No further splitting occurs.
 
+# Types of Decision Tree-
+## 1. Classification Trees: 
+- Used when the target variable is categorical (discrete).
+- The tree splits the data to sort instances into distinct classes or categories (e.g., predicting whether an email is "Spam" or "Not Spam").
+## 2.Regression Trees: 
+- Used when the target variable is continuous (numerical).
+- The tree predicts real numbers by splitting the data into regions and averaging the values within those regions (e.g., predicting house prices or temperature)
+
+# Mathematical Concepts -
+## Entropy -
+- Entropy is a measure of impurity, uncertainty, or disorder in a dataset.
+- In a Decision Tree, entropy helps us determine how mixed the classes are in a dataset.
+    - Low Entropy → Data is pure (mostly one class)
+    - High Entropy → Data is mixed (many classes)
+- The goal of a Decision Tree is to reduce entropy at every split.
+
+        Entropy(S) = -P(Yes)log₂(P(Yes))
+                     -P(No)log₂(P(No))
+
+- Entropy = 0, Means all samples belong to one class.
+- Entropy = 1, Means data is equally mixed, maximum uncertainty.
+
+## Information Gain -
+- Information Gain is the reduction in entropy achieved after splitting a dataset on a feature.
+- A Decision Tree chooses the feature with the highest Information Gain because it provides the best separation of classes.
+
+        Information Gain = Entropy(Parent) - Weighted Entropy(Children)
+
+-  Weighted Entropy - is the average entropy of all child nodes, where each entropy is weighted according to the proportion of records in that child node.
+
+        Weighted Entropy =
+        (Weight of Child 1 × Entropy of Child 1)
+        +
+        (Weight of Child 2 × Entropy of Child 2)
+        +
+        ...
+        +
+        (Weight of Child n × Entropy of Child n)
+
+## Gini Index -
+- Gini Index measures the impurity of a dataset. A lower Gini value indicates a purer node, while a higher Gini value indicates a more mixed node.
+
+      Gini(S) = 1 - Σ(pi²)
+      
+      Where:
+      
+      S  = Dataset
+      pi = Probability of class i
+      n  = Number of classes
+      
+
+
+
+
+
+
+
+
+
+
+
