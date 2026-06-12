@@ -191,19 +191,18 @@
         IG(Student) = 1 - 1
                     = 0
   
-Step 5: Compare Information Gain
-Feature	Information Gain
-Age	0.656
-Income	0.062
-Student	0
-Best Feature
-Age
+## Step 5: Compare Information Gain
+| Feature | Information Gain |
+|----------|------------------|
+| Age      | 0.656            |
+| Income   | 0.062            |
+| Student  | 0                |
 
-because it has the highest Information Gain.
+- Best Feature=Age
+- because it has the highest Information Gain. So Age becomes the **Root Node**.
 
-So Age becomes the Root Node.
-
-Decision Tree Construction
+## Decision Tree Construction
+               
                     Age
                /      |      \
           Young    Middle     Old
@@ -213,40 +212,3 @@ Decision Tree Construction
                         Medium   Low
                           |        |
                          Yes      Mixed
-Predicting a New Record
-
-Suppose:
-
-Age	Income	Student
-Middle	High	Yes
-
-Tree Traversal:
-
-Age = Middle
-      ↓
-     Yes
-
-Prediction:
-
-Buy Laptop = Yes
-What Happened Mathematically?
-Calculated Parent Entropy = 1.
-Computed Information Gain for all 3 features:
-Age = 0.656
-Income = 0.062
-Student = 0
-Chose the feature with the highest Information Gain.
-Split the dataset using that feature.
-Repeated the process for child nodes until leaf nodes were reached.
-Final Formula Used
-
-Entropy
-
-Entropy(S) = - Σ Pi log₂(Pi)
-
-Information Gain
-
-IG = Entropy(Parent)
-     - Weighted Entropy(Children)
-
-The feature with the maximum Information Gain becomes the next decision node in the tree.
