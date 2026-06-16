@@ -30,7 +30,8 @@
 - In such cases, SVM uses the Kernel Trick to transform the data into a higher-dimensional space where a linear separation becomes possible.
 
 
-# Example -
+
+
 
 
 
