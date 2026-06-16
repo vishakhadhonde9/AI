@@ -20,12 +20,17 @@
 - Small Margin: The boundary is very close to the points.
 - Large Margin: The boundary is farther from both classes. SVM prefers the large-margin hyperplane.
 
+# Types of Support Vector Machine (SVM)
+### 1. Linear SVM
+- A Linear SVM is used when the data can be separated by a straight line (in 2D), a plane (in 3D), or a hyperplane (in higher dimensions).
+- In this case, the classes are linearly separable, meaning a single straight decision boundary can correctly divide the data into different classes.
+
+### 2. Non-Linear SVM
+- A Non-Linear SVM is used when the data cannot be separated by a straight line or a simple hyperplane.
+- In such cases, SVM uses the Kernel Trick to transform the data into a higher-dimensional space where a linear separation becomes possible.
 
 
-
-
-
-
+# Example -
 
 
 
