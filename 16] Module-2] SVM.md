@@ -29,8 +29,65 @@
 - A Non-Linear SVM is used when the data cannot be separated by a straight line or a simple hyperplane.
 - In such cases, SVM uses the Kernel Trick to transform the data into a higher-dimensional space where a linear separation becomes possible.
 
+# Non-Linear SVM -
+- A normal Support Vector Machine (SVM) works well when data can be separated using a straight line (2D) or a plane (3D).
+- Sometimes data looks like this:
 
+             Blue
+          Blue   Blue
+      
+            Red
+         Red   Red
 
+- No straight line can separate them. Linear SVM fails.
+- **The Problem with Transformation:**
+- Suppose we have: 1000 features and we transform them to: 10,000 features
+- This requires:
+
+      Huge memory
+      Huge computation
+      Slow training
+## Kernel Trick
+- The Kernel Trick allows SVM to work in higher dimensions without actually creating those dimensions.
+- Instead of explicitly calculating φ(x), SVM directly computes K(xi,xj), called the Kernel Function.
+
+**Kernel Function:**
+
+        K(x,y) = φ(x) · φ(y)
+        
+        Where:
+        
+        x = first data point
+        y = second data point
+        φ = transformation function
+
+- Kernel computes the inner product in higher-dimensional space.
+
+# Types of Kernel -
+## 1. Linear Kernel?
+- The Linear Kernel is the simplest kernel used in SVM.
+- It does not transform data into a higher-dimensional space.
+- Instead, it calculates the similarity between two points using their dot product.
+
+      K(x,z)=x⋅z
+      
+      where:
+      
+      x = first data point
+      z = second data point
+      x⋅z = dot product
+
+      For two vectors:
+      x = (x₁, x₂, ..., xₙ)
+      z = (z₁, z₂, ..., zₙ)
+      
+      Dot Product:
+      x · z = x₁z₁ + x₂z₂ + ... + xₙzₙ
+      
+      
+      
+      
+      
 
 
 
