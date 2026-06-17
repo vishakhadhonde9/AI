@@ -84,14 +84,82 @@
       Dot Product:
       x · z = x₁z₁ + x₂z₂ + ... + xₙzₙ
       
+## 2.Polynomial Kernel-
+- Polynomial Kernel is a kernel function that allows SVM to learn non-linear relationships between features.
+- Instead of separating data with a straight line, it creates a curved decision boundary.
+- Polynomial Kernel implicitly maps data into a higher-dimensional feature space without actually creating the new features.      
+
+        K(x,z) = (x · z + c)^d
+        
+        where:
+            x = first data point
+            z = second data point
+            c = constant term
+            d = degree of polynomial    
+              
+- **Dot Product (x⋅z):** ### measures how similar two vectors are.
+
+      For:
+      x = (x₁, x₂)
+      z = (z₁, z₂)
+      Dot Product: x · z = x₁z₁ + x₂z₂
+
+- Imagine two arrows: 
+
+      Same direction → large positive dot product
+      Opposite direction → negative dot product
+      Perpendicular → zero
+
+- **Constant c:** 
+
+        Common Values:
+        c = 0 --> Only higher-order polynomial terms.
+        c = 1 --> Includes lower-order terms and bias. Most commonly used.
+        
+- **Degree d:**
+- d determines the complexity of the decision boundary
+- d=1 behaves like a linear model.
+-  Decision boundary: Straight line.
+- d=2 Quadratic relationship.
+- Decision boundary: Curved (parabolic).
+- d=3 gives a cubic boundary.
+- Higher values of d create more complex decision boundaries but may lead to overfitting.      
+
+
+## RBF (Radial Basis Function) Kernel -
+- RBF (Radial Basis Function) Kernel, also called the Gaussian Kernel, is the most popular and widely used kernel in SVM.
+- It is used when the data is not linearly separable and the relationship between features is complex.
+
+        K(x,z) = e^(-γ||x-z||²)
+
+          The result is always between: 0<K(x,z)≤1
+          Value close to 1 → points are very similar.
+          Value close to 0 → points are very different.
+                  
+        Where:
+          x = first data point
+          z = second data point
+          γ (gamma) = controls how quickly similarity decreases with distance
+          ||x-z||² = squared Euclidean distance between x and z
+          ||x - z||² = (x₁ - z₁)² + (x₂ - z₂)² + ... + (xₙ - zₙ)²
+          e = Euler's number (≈ 2.718)
+          
+ ## 4. Sigmoid Kernel
+- Sigmoid Kernel is a non-linear kernel used in SVM that behaves similarly to the activation function used in neural networks.
+- It transforms the similarity between two data points using the hyperbolic tangent (tanh) function.
+
+      K(x,z) = tanh(α(x · z) + c)
       
+      Where:
       
-      
-      
+      - x = first data point
+      - z = second data point
+      - x · z = dot product between x and z
+      - α (alpha) = slope parameter
+      - c = constant (bias term)
+      - tanh = hyperbolic tangent function       
+- tanh function has an S-shaped curve similar to the sigmoid activation function used in neural networks.
 
-
-
-
-
+     Output range: −1≤tanh(x)≤1
 
 
